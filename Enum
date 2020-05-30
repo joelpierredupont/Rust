@@ -1,0 +1,14 @@
+#![allow(non_snake_case)]
+
+#[derive(Debug)]
+enum Message {
+    // TODO: define a few types of messages as used below
+    Quitter,afficher,Bouger,Changerdecouleur
+}
+
+fn main() {
+    println!("{:?}", Message::Quitter);
+    println!("{:?}", Message::Afficher);
+    println!("{:?}", Message::Bouger);
+    println!("{:?}", Message::Changerdecouleur);
+}
